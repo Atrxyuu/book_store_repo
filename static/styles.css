@@ -1,0 +1,21 @@
+img {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+
+h1 {
+  font-weight: bold;
+  color: #333333;
+}
+
+
+body {
+  background-color: lightblue;
+}
+
+
+p {
+  color: red;
+  font-size: 18px;
+}
