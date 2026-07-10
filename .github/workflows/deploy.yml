@@ -22,7 +22,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "./Dockerfile,/*.py,./requirements.txt,./seeds,./templates,./static,./lib"
           target: ~/book_store
-          rm_target: true
 
       - name: Ensure Docker network exists
         uses: appleboy/ssh-action@v1.0.3
